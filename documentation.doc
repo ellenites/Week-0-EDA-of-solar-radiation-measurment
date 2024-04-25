@@ -1,0 +1,59 @@
+                        Report on Solar Radiation Measurement Data Analysis
+
+This report presents an analysis of solar radiation measurement data extracted and aggregated from three different datasets. Each dataset contains observations of various environmental factors including solar radiation, air temperature, relative humidity, wind speed, and direction, among others. The analysis aims to compare the characteristics and quality of the datasets and identify any significant differences or patterns.
+
+          Dataset Description
+- Dataset 1: [benin-malanville.csv]
+- Dataset 2: [sierraleone-bumbuna.csv]
+- Dataset 3: [togo-dapaong_qc.csv]
+
+          Methodology
+1. Data Preparation: All datasets were loaded into pandas DataFrames, and initial data exploration was conducted to understand the structure and format of the data.
+   
+2. Data Cleaning: Missing values and inconsistencies were addressed through data cleaning processes such as imputation, filtering, and validation.
+
+3. Exploratory Data Analysis (EDA): The following analyses were performed on each dataset:
+   - Summary Statistics
+   - Data Quality Check
+   - Time Series Analysis
+   - Correlation Analysis
+   - Wind Analysis
+   - Temperature Analysis
+   - Histograms
+   - Box Plots
+   - Scatter Plots
+
+4. Comparison: The findings from each dataset were compared to identify similarities and differences in key metrics and trends.
+
+         Results
+1. Summary Statistics:
+   - Dataset 1 exhibited higher mean values of solar radiation components compared to Dataset 2 and Dataset 3.
+   - Dataset 3 had the highest variability in wind speed as indicated by the standard deviation.
+
+2. Data Quality Check:
+   - All datasets showed minimal missing values and outliers after data cleaning.
+   - Dataset 2 had the highest number of missing values in the precipitation column.
+
+3. Time Series Analysis(i could not perform this  because of error):
+   
+4. Correlation Analysis:
+   - Strong positive correlations were observed between solar radiation components (GHI, DNI, DHI) in all datasets.
+   - Wind speed showed a negative correlation with solar radiation components in Dataset 1 and Dataset 2 but a positive correlation in Dataset 3.
+
+6. Temperature Analysis:
+   - Ambient temperature and module temperatures showed consistent relationships across all datasets.
+   - Module temperatures tended to be slightly higher than ambient temperature, especially in Dataset 2.
+
+7. Histograms, Box Plots, and Scatter Plots:
+   - Frequency distributions and spread of variables were similar across all datasets.
+   - Outliers were minimal and well within acceptable ranges.
+
+                 Conclusion
+Based on the analysis, all three datasets provide valuable insights into solar radiation and environmental factors. Dataset 3 exhibited slightly different characteristics, such as higher wind gust speeds and fluctuations in solar radiation, compared to Dataset 1 and Dataset 2. Further investigation into the underlying causes of these differences may be warranted for specific applications. Overall, each dataset contributes valuable information for understanding solar radiation patterns and environmental conditions.
+
+                      Recommendations
+- Consider further analysis to explore the factors contributing to differences in wind speed and solar radiation fluctuations among datasets.
+- Validate findings from this analysis with additional sources or ground truth measurements.
+- Continuously monitor and update datasets to account for changes in environmental conditions and measurement accuracy.
+   
+NOTE: I am new to this things and it is possible that my observation and analysis may not be correct.
